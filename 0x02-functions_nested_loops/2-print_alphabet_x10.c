@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - make alphabet x10
+ * print_alphabet_x10 - make alphabet x10 times
  *
  * Return: void
  */
@@ -19,7 +19,7 @@ for (ch = 'a'; ch <= 'z'; ch++)
 _putchar(ch);
 }
 _putchar('\n');
-}
 i++;
+}
 
 }
